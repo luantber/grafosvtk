@@ -10,12 +10,59 @@ public:
 	Grafo(){};
 	list<Nodo<T,V> > m_nodos;
 	void addNodo(T);
-	//void find()
+	void prints();
+	void addEge(T,T,V);
+	Nodo<T,V> * find(T b){
+		typename list<Nodo<T,V> >::iterator it = m_nodos.begin();
+		
+		for(;it!=m_nodos.end();++it){
+			if(it->m_dato == b){
+				return &(*it);
+			}
+		}
+		return 0;
+	}
 };
 
 template <class T,class V>
 void Grafo<T,V>::addNodo(T dato){
 	m_nodos.push_back(Nodo<T,V>(dato));
 }
+
+
+template <class T,class V>
+void Grafo<T,V>::addEge(T a,T b,V peso){
+	Nodo<T,V> * p = find(a);
+	Nodo<T,V> * q = find(b);
+
+}
+
+
+
+
+
+template <class T,class V>
+void Grafo<T,V>::prints(){
+	typename std::list<Nodo<T,V> >::iterator it;
+	
+	for ( it = m_nodos.begin();it!=m_nodos.end();++it){
+		cout << (*it).m_dato << "( ";
+
+		if((*it).m_aristas.size() != 0){
+			typename list<Edge<T,V >* >::iterator it_ar = (*it).m_aristas.begin();
+			cout << (*it_ar)->m_pdestino.m_dato;
+			
+			for(;it_ar!=((*it).m_aristas).end();++it_ar){
+				cout << ((*it_ar)->m_pdestino.m_dato)<< ",";
+			}
+		}
+			cout << " )";
+
+	}
+}
+
+
+
+
 
 

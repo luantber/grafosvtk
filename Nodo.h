@@ -27,5 +27,6 @@ public:
 	}
 
 	V m_peso;
-	Nodo<T,V>  m_pdestino;
+
+	Nodo<T,V> * m_pdestino;
 };

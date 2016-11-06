@@ -13,6 +13,7 @@ int main(){
 	cout << g.find(7)->m_dato ;
 	g.addEdge(3,7,10);
 	g.prints();
+	cout	<< "hola"<<endl;
 
 
 

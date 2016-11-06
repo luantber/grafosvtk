@@ -1,6 +1,6 @@
 #include "Nodo.h"
 #include <list>
-
+#include <vector>
 using namespace std;
 
 template <class T,class V>
@@ -12,6 +12,10 @@ public:
 	void addNodo(T);
 	void prints();
 	void addEdge(T,T,V);
+
+	vector <V> DJ(T);
+
+
 	Nodo<T,V> * find(T b){
 		typename list<Nodo<T,V> >::iterator it = m_nodos.begin();
 		
@@ -65,7 +69,12 @@ void Grafo<T,V>::prints(){
 }
 
 
+template <class T,class V>
+vector<V> Grafo<T,V>::DJ(T origen){
+	Nodo<T,V> * p_origen = find(origen);
+	vector<V> soluciones;
+	vector<V> ;
 
 
-
-
+	return soluciones;
+}

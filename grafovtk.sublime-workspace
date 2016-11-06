@@ -1,1 +1,499 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mn",
+				"monedas"
+			],
+			[
+				"edita",
+				"editarUsu"
+			],
+			[
+				"esta",
+				"estado_empleados"
+			],
+			[
+				"datos",
+				"datos"
+			],
+			[
+				"new",
+				"newEmp"
+			],
+			[
+				"E",
+				"EstadoEmpleado"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"estados",
+				"estadoEmpleadosController"
+			],
+			[
+				"estd",
+				"estadosEmpleados"
+			],
+			[
+				"estaod",
+				"estadosEmpleados"
+			],
+			[
+				"dat",
+				"datos"
+			],
+			[
+				"nombre",
+				"nombreCargo"
+			],
+			[
+				"cargos",
+				"cargosController"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"id",
+				"id_area"
+			],
+			[
+				"no",
+				"nombreCargo"
+			],
+			[
+				"id_",
+				"id_persona"
+			],
+			[
+				"empl",
+				"empleado"
+			],
+			[
+				"emple",
+				"empleadosController"
+			],
+			[
+				"emplea",
+				"empleado"
+			],
+			[
+				"ec",
+				"encontrado"
+			],
+			[
+				"nomre",
+				"nombre"
+			],
+			[
+				"nomr",
+				"nombre"
+			],
+			[
+				"da",
+				"datos"
+			],
+			[
+				"usua",
+				"usuariosController"
+			],
+			[
+				"crearNew",
+				"crearNewEmple"
+			],
+			[
+				"empleados",
+				"empleados"
+			],
+			[
+				"mostrar",
+				"mostrarCargo"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"carg",
+				"cargos"
+			],
+			[
+				"most",
+				"mostrado2"
+			],
+			[
+				"apell",
+				"apellidoPer"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"perso",
+				"personasController"
+			],
+			[
+				"m",
+				"m_psiguiente"
+			],
+			[
+				"t",
+				"tp	template <typename ${1:_InputIter}>"
+			],
+			[
+				"m_",
+				"m_phead"
+			],
+			[
+				"T",
+				"T"
+			],
+			[
+				"m_p",
+				"m_phead"
+			],
+			[
+				"ne",
+				"newPer"
+			],
+			[
+				"crear",
+				"crearPersona"
+			],
+			[
+				"publ",
+				"public"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"begi",
+				"begin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Grafo.h",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/luisbch/AED/grafo/grafosvtk",
+		"/home/margar/Documentos/AED/grafosvtk"
+	],
+	"file_history":
+	[
+		"/home/margar/Documentos/AED/grafosvtk/build/Makefile",
+		"/home/margar/Documentos/AED/ejemplos/PointPicker/PointPicker.cxx",
+		"/home/margar/Documentos/AED/ejemplos/HighlightPickedActor/HighlightPickedActor.cxx",
+		"/home/margar/Documentos/AED/ejemplos/Picking/Picking.cxx",
+		"/home/margar/Documentos/AED/grafosvtk/main.cpp",
+		"/home/margar/Documentos/AED/grafosvtk/Nodo.h",
+		"/home/margar/Documentos/AED/grafosvtk/Grafo.h",
+		"/home/margar/Documentos/AED/grafosvtk/Edge.h",
+		"/home/margar/Documentos/AED/ejemplos/PickPixel/PickPixel.cxx",
+		"/home/margar/Documentos/AED/ejemplos/WorldPointPicker/WorldPointPicker.cxx",
+		"/home/margar/Documentos/AED/tramite/resources/views/empleados/todos.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/empleados/show.blade.php",
+		"/home/margar/Documentos/AED/tramite/public/rs/TablaEmpleados.js",
+		"/home/margar/Documentos/AED/tramite/public/rs/TablaEstadosEmpleados.js",
+		"/home/margar/Documentos/AED/tramite/resources/views/estadosEmpleados/todos.blade.php",
+		"/home/margar/Documentos/AED/tramite/public/rs/TablaEstadosTramites.js",
+		"/home/margar/Documentos/AED/tramite/resources/views/estadosTramites/todos.blade.php",
+		"/home/margar/Documentos/AED/tramite/public/rs/TablaAreas.js",
+		"/home/margar/Documentos/AED/tramite/resources/views/usuarios/todos.blade.php",
+		"/home/margar/Documentos/AED/tramite/public/rs/TablaPersonas.js",
+		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/empleadosController.php",
+		"/home/margar/Documentos/AED/tramite/routes/web.php",
+		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/cargosController.php",
+		"/home/margar/Documentos/AED/tramite/public/rs/TablaCargos.js",
+		"/home/margar/Documentos/AED/tramite/resources/views/empleados/eliminar.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/areas/editar.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/areas/todos.blade.php",
+		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/areasController.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/cargos/editar.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/cargos/eliminar.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/cargos/todos.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/notas/todos.blade.php",
+		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/notasController.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/template.blade.php",
+		"/home/margar/Documentos/AED/tramite/app/Tramite.php",
+		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/estadoEmpleadosController.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/estadosEmpleados/show.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/estadosEmpleados/crear.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/estadosEmpleados/eliminar.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/estadosEmpleados/editar.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/estadosTramites/eliminar.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/empleados/editar.blade.php",
+		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/estadosTramitesController.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/estadosTramites/show.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/estadosTramites/editar.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/estadosTramites/crear.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/usuarios/show.blade.php",
+		"/home/margar/Documentos/AED/tramite/storage/framework/views/d3be30b9e37ba1ac2432800dc1519fea9c483f74.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/usuarios/crear.blade.php",
+		"/home/margar/Documentos/AED/tramite/app/Empleado.php",
+		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/usuariosController.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/empleados/crear.blade.php",
+		"/home/margar/Documentos/AED/tramite/app/EstadoEmpleado.php",
+		"/home/margar/Documentos/AED/tramite/app/Cargo.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/cargos/crear.blade.php",
+		"/home/margar/Documentos/AED/tramite/app/Area.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/cargos/show.blade.php",
+		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/tramitesController.php",
+		"/home/margar/Documentos/AED/tramite/app/User.php",
+		"/home/margar/Documentos/AED/tramite/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/home/margar/Documentos/AED/tramite/database/migrations/2016_10_20_233802_create_empleados_table.php",
+		"/home/margar/Documentos/AED/tramite/database/migrations/2016_10_20_233818_create_cargos_table.php",
+		"/home/margar/Documentos/AED/tramite/database/migrations/2016_10_20_232823_create_personas_table.php",
+		"/home/margar/Documentos/AED/tramite/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/home/margar/Documentos/AED/tramite/database/migrations/2016_10_28_220049_create_estado_empleados_table.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/usuarios/editar.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/errors/404.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/errors/noEmpleado.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/errors/noExiste.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/empleados/usuario.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/cargos/mostrar.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/editarCargo.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/cargos/mostrarCargo.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/crearEmpleado.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/crearNewEmpleado.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/crearPersona.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/crearCargo.blade.php",
+		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/personasController.php",
+		"/home/margar/Documentos/AED/colas/main.cpp",
+		"/home/margar/Documentos/AED/Presentaciones/FibonacciHeap/FibonacciHeap.tex",
+		"/home/margar/Documentos/AED/colas/Nodo.h",
+		"/home/margar/Documentos/AED/colas/cola.h",
+		"/home/margar/Documentos/AED/Presentaciones/Listas-Pilas-y-Colas/todo/todo.tex",
+		"/media/margar/Nuevo vol/Documentos/Cursos-2016-II/AED/ListasDobles/ListasDobles/Nodo.h",
+		"/home/margar/Documentos/AED/colas.h/Nodo",
+		"/media/margar/Nuevo vol/Documentos/Cursos-2016-II/AED/Listas/Listas/Nodo.h",
+		"/media/margar/Nuevo vol/Documentos/Cursos-2016-II/AED/Listas/Listas/Listas.cpp",
+		"/home/margar/project1/routes/web.php",
+		"/home/margar/project1/app/Persona.php",
+		"/home/margar/Documentos/AED/opencv/DisplayImage.cpp",
+		"/home/margar/project1/app/Http/Controllers/personasController.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/vendor/crearArea.blade.php",
+		"/home/margar/Documentos/AED/tramite/resources/views/crear.blade.php",
+		"/home/margar/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/margar/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/margar/project1/resources/views/template.blade.php",
+		"/home/margar/project1/resources/views/vista2.blade.php",
+		"/home/margar/project1/.env",
+		"/home/margar/project1/resources/views/vista1.blade.php",
+		"/home/margar/project1/database/migrations/2016_10_20_185900_create_personas_table.php",
+		"/home/margar/.config/composer/vendor/laravel/installer/src/NewCommand.php",
+		"/var/www/html/info.php",
+		"/var/www/html/algo.html",
+		"/etc/php/7.0/apache2/php.ini",
+		"/home/margar/SimpleView/CMakeLists.txt",
+		"/home/margar/Documentos/heap.cpp",
+		"/home/margar/Documentos/spanish-japanese-2016-10-03.txt",
+		"/home/margar/Documentos/spanish-french-2016-10-03.txt",
+		"/home/margar/Documentos/spanish-english-2016-10-03.txt"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"personas",
+			"persona",
+			"disabled"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Grafo.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1299,
+								1299
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "grafovtk.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -17,11 +17,11 @@
 			],
 			[
 				"Rou",
-				"Route::get\tBasic Get Route."
+				"Route::get	Basic Get Route."
 			],
 			[
 				"Ro",
-				"Route::get\tBasic Get Route."
+				"Route::get	Basic Get Route."
 			],
 			[
 				"estados",
@@ -49,7 +49,7 @@
 			],
 			[
 				"fun",
-				"fun\tfunction …"
+				"fun	function …"
 			],
 			[
 				"tipo",
@@ -85,18 +85,17 @@
 			],
 			[
 				"inc",
-				"inc\t#include \"…\""
+				"inc	#include \"…\""
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "main.cpp",
+			"file": "grafosvtk.cpp",
 			"settings":
 			{
-				"buffer_size": 238,
-				"encoding": "UTF-8",
+				"buffer_size": 295,
 				"line_ending": "Unix"
 			}
 		},
@@ -104,17 +103,15 @@
 			"file": "grafovtk.sublime-project",
 			"settings":
 			{
-				"buffer_size": 118,
-				"encoding": "UTF-8",
+				"buffer_size": 191,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Makefile",
+			"file": "Grafo.h",
 			"settings":
 			{
-				"buffer_size": 47,
-				"encoding": "UTF-8",
+				"buffer_size": 1341,
 				"line_ending": "Unix"
 			}
 		}
@@ -187,7 +184,7 @@
 				"Package Control: Install Package"
 			],
 			[
-				"install\t",
+				"install	",
 				"Package Control: Install Package"
 			]
 		],
@@ -212,9 +209,15 @@
 	},
 	"expanded_folders":
 	[
+		"/home/margar/Documentos/AED/grafosvtk",
+		"/home/margar/Documentos/AED/grafosvtk/build"
 	],
 	"file_history":
 	[
+		"/home/margar/Documentos/AED/grafosvtk/Makefile",
+		"/home/margar/Documentos/AED/grafosvtk/build/Makefile",
+		"/home/margar/Documentos/AED/grafosvtk/DoubleClick.cxx",
+		"/home/margar/Documentos/AED/grafosvtk/CMakeLists.txt",
 		"/home/luisbch/AED/voraz/Makefile",
 		"/home/luisbch/AED/voraz/monedas.cpp",
 		"/home/luisbch/AED/grafo/grafosvtk/Nodo.h",
@@ -338,15 +341,11 @@
 		"/home/luisbch/AED/aedtraductor/otros/nodovtk.h",
 		"/home/luisbch/AED/aedtraductor/otros/palabra.cpp",
 		"/home/luisbch/AED/aedtraductor/otros/palabra.h",
-		"/home/luisbch/AED/aedtraductor/windows/include/vtkwindow.h",
-		"/home/luisbch/AED/aedtraductor/otros/par.cpp",
-		"/home/luisbch/untitled/main.cpp",
-		"/home/luisbch/aedtraductor/CMakeLists.txt",
-		"/home/luisbch/aedtraductor/main.cpp"
+		"/home/luisbch/AED/aedtraductor/windows/include/vtkwindow.h"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -360,6 +359,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"doubleclick",
 			"{{",
 			"TipoTramite",
 			"Area",
@@ -386,19 +386,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "main.cpp",
+					"file": "grafosvtk.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 238,
+						"buffer_size": 295,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								189,
-								189
+								276,
+								276
 							]
 						],
 						"settings":
@@ -407,7 +407,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -419,15 +419,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 118,
+						"buffer_size": 191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								191,
+								191
 							]
 						],
 						"settings":
@@ -440,40 +440,42 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 2,
-					"file": "Makefile",
+					"file": "Grafo.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 47,
+						"buffer_size": 1341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								47,
-								47
+								1172,
+								1172
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1026.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -505,7 +507,7 @@
 		"cols":
 		[
 			0.0,
-			0.853982300885,
+			0.602685878663,
 			1.0
 		],
 		"rows":
@@ -517,7 +519,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 237.0
+		"height": 355.0
 	},
 	"output.find_results":
 	{
@@ -565,7 +567,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 278.0,
+	"side_bar_width": 192.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

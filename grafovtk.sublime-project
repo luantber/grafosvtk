@@ -6,9 +6,5 @@
 		}
 	],
 
-	"build_system": 
-        {
-            "name": "Make"
-        }
-    
+
 }

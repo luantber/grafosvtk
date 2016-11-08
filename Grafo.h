@@ -70,7 +70,7 @@ template <class T,class V>
 vector<V> Grafo<T,V>::DJ(T origen){
 	Nodo<T,V> * p_origen = find(origen);
 	vector<V> soluciones;
-	vector<V> ;
+//	vector<V> ;
 
 
 	return soluciones;

@@ -4,21 +4,14 @@
 using namespace std;
 int main(){
 
-	Grafo<int,int> g;
 
-	//for(int i=0;i<10;++i){
-	//	g.addNodo(i);
-	//}
+
+	Grafo<double *,int> g;
+
+	double datos[3] = {1,1,1};
+	g.addNodo(datos);
 	
-	//cout << g.find(7)->m_dato ;
-	//g.addEdge(3,7,10);
-	//g.addEdge(3,4,10);
-	//g.prints();
-	cout	<< "hola   llllll como estas"<<endl;
-
-
-
-
+	g.prints();
 
 
 	return 0;

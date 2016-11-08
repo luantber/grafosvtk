@@ -39,8 +39,10 @@ void Grafo<T,V>::addEdge(T a,T b,V peso){
 	Nodo<T,V> * p = find(a);
 	Nodo<T,V> * q = find(b);
 
-	Edge<T,V> * nuevo = new Edge<T,V>(peso,q);
-	p->m_aristas.push_back(nuevo);
+	Edge<T,V> * nuevo1 = new Edge<T,V>(peso,q);
+	Edge<T,V> * nuevo2 = new Edge<T,V>(peso,p);
+	p->m_aristas.push_back(nuevo1);
+	q->m_aristas.push_back(nuevo2);
 
 }
 

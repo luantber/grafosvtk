@@ -4,217 +4,201 @@
 		"selected_items":
 		[
 			[
-				"mn",
-				"monedas"
+				"in",
+				"include"
 			],
 			[
-				"edita",
-				"editarUsu"
+				"m_",
+				"m_dato"
 			],
 			[
-				"esta",
-				"estado_empleados"
+				"it",
+				"it_ar"
 			],
 			[
-				"datos",
-				"datos"
+				"Rou",
+				"Route::get\tBasic Get Route."
 			],
 			[
-				"new",
-				"newEmp"
-			],
-			[
-				"E",
-				"EstadoEmpleado"
-			],
-			[
-				"op",
-				"option	Tag"
+				"Ro",
+				"Route::get\tBasic Get Route."
 			],
 			[
 				"estados",
-				"estadoEmpleadosController"
+				"estadosEmpleadoController"
 			],
 			[
-				"estd",
-				"estadosEmpleados"
+				"are",
+				"Area"
 			],
 			[
-				"estaod",
-				"estadosEmpleados"
+				"tipoTra",
+				"tipoTramite"
 			],
 			[
-				"dat",
-				"datos"
+				"test",
+				"testController"
 			],
 			[
-				"nombre",
-				"nombreCargo"
+				"json_",
+				"json_encode"
 			],
 			[
-				"cargos",
-				"cargosController"
+				"tramite",
+				"tramitesController"
 			],
 			[
-				"in",
-				"input	Tag"
+				"fun",
+				"fun\tfunction …"
 			],
 			[
-				"id",
-				"id_area"
+				"tipo",
+				"tipoTramites"
 			],
 			[
-				"no",
-				"nombreCargo"
-			],
-			[
-				"id_",
-				"id_persona"
-			],
-			[
-				"empl",
-				"empleado"
-			],
-			[
-				"emple",
-				"empleadosController"
-			],
-			[
-				"emplea",
-				"empleado"
+				"ar",
+				"array_push"
 			],
 			[
 				"ec",
 				"encontrado"
 			],
 			[
-				"nomre",
-				"nombre"
-			],
-			[
-				"nomr",
-				"nombre"
-			],
-			[
-				"da",
-				"datos"
-			],
-			[
-				"usua",
-				"usuariosController"
-			],
-			[
-				"crearNew",
-				"crearNewEmple"
-			],
-			[
-				"empleados",
-				"empleados"
-			],
-			[
-				"mostrar",
-				"mostrarCargo"
-			],
-			[
-				"arr",
-				"array"
-			],
-			[
-				"carg",
-				"cargos"
-			],
-			[
-				"most",
-				"mostrado2"
-			],
-			[
-				"apell",
-				"apellidoPer"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"h",
-				"h1	Tag"
-			],
-			[
-				"perso",
-				"personasController"
-			],
-			[
 				"m",
-				"m_psiguiente"
-			],
-			[
-				"t",
-				"tp	template <typename ${1:_InputIter}>"
-			],
-			[
-				"m_",
 				"m_phead"
 			],
 			[
-				"T",
-				"T"
+				"vec",
+				"Vec3b"
 			],
 			[
-				"m_p",
-				"m_phead"
+				"js",
+				"json_encode"
 			],
 			[
-				"ne",
-				"newPer"
+				"Hijo",
+				"hijo1"
 			],
 			[
-				"crear",
-				"crearPersona"
-			],
-			[
-				"publ",
+				"p",
 				"public"
 			],
 			[
-				"n",
-				"n"
-			],
-			[
-				"begi",
-				"begin"
+				"inc",
+				"inc\t#include \"…\""
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Grafo.h",
+			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 1336,
+				"buffer_size": 238,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "grafovtk.sublime-project",
+			"settings":
+			{
+				"buffer_size": 118,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 47,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Compilar",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Compilar",
+					""
+				],
+				[
+					"Compilar",
+					"Correr"
+				]
+			],
+			[
+				"Compilar",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Compilar",
+					""
+				],
+				[
+					"Compilar",
+					"Run"
+				]
+			],
+			[
+				"Compilar",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
-		"last_filter": "",
+		"height": 372.0,
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install\t",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 146.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -228,124 +212,141 @@
 	},
 	"expanded_folders":
 	[
-		"/home/luisbch/AED/grafo/grafosvtk",
-		"/home/margar/Documentos/AED/grafosvtk"
 	],
 	"file_history":
 	[
-		"/home/margar/Documentos/AED/grafosvtk/build/Makefile",
-		"/home/margar/Documentos/AED/ejemplos/PointPicker/PointPicker.cxx",
-		"/home/margar/Documentos/AED/ejemplos/HighlightPickedActor/HighlightPickedActor.cxx",
-		"/home/margar/Documentos/AED/ejemplos/Picking/Picking.cxx",
-		"/home/margar/Documentos/AED/grafosvtk/main.cpp",
-		"/home/margar/Documentos/AED/grafosvtk/Nodo.h",
-		"/home/margar/Documentos/AED/grafosvtk/Grafo.h",
-		"/home/margar/Documentos/AED/grafosvtk/Edge.h",
-		"/home/margar/Documentos/AED/ejemplos/PickPixel/PickPixel.cxx",
-		"/home/margar/Documentos/AED/ejemplos/WorldPointPicker/WorldPointPicker.cxx",
-		"/home/margar/Documentos/AED/tramite/resources/views/empleados/todos.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/empleados/show.blade.php",
-		"/home/margar/Documentos/AED/tramite/public/rs/TablaEmpleados.js",
-		"/home/margar/Documentos/AED/tramite/public/rs/TablaEstadosEmpleados.js",
-		"/home/margar/Documentos/AED/tramite/resources/views/estadosEmpleados/todos.blade.php",
-		"/home/margar/Documentos/AED/tramite/public/rs/TablaEstadosTramites.js",
-		"/home/margar/Documentos/AED/tramite/resources/views/estadosTramites/todos.blade.php",
-		"/home/margar/Documentos/AED/tramite/public/rs/TablaAreas.js",
-		"/home/margar/Documentos/AED/tramite/resources/views/usuarios/todos.blade.php",
-		"/home/margar/Documentos/AED/tramite/public/rs/TablaPersonas.js",
-		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/empleadosController.php",
-		"/home/margar/Documentos/AED/tramite/routes/web.php",
-		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/cargosController.php",
-		"/home/margar/Documentos/AED/tramite/public/rs/TablaCargos.js",
-		"/home/margar/Documentos/AED/tramite/resources/views/empleados/eliminar.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/areas/editar.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/areas/todos.blade.php",
-		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/areasController.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/cargos/editar.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/cargos/eliminar.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/cargos/todos.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/notas/todos.blade.php",
-		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/notasController.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/template.blade.php",
-		"/home/margar/Documentos/AED/tramite/app/Tramite.php",
-		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/estadoEmpleadosController.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/estadosEmpleados/show.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/estadosEmpleados/crear.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/estadosEmpleados/eliminar.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/estadosEmpleados/editar.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/estadosTramites/eliminar.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/empleados/editar.blade.php",
-		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/estadosTramitesController.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/estadosTramites/show.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/estadosTramites/editar.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/estadosTramites/crear.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/usuarios/show.blade.php",
-		"/home/margar/Documentos/AED/tramite/storage/framework/views/d3be30b9e37ba1ac2432800dc1519fea9c483f74.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/usuarios/crear.blade.php",
-		"/home/margar/Documentos/AED/tramite/app/Empleado.php",
-		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/usuariosController.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/empleados/crear.blade.php",
-		"/home/margar/Documentos/AED/tramite/app/EstadoEmpleado.php",
-		"/home/margar/Documentos/AED/tramite/app/Cargo.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/cargos/crear.blade.php",
-		"/home/margar/Documentos/AED/tramite/app/Area.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/cargos/show.blade.php",
-		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/tramitesController.php",
-		"/home/margar/Documentos/AED/tramite/app/User.php",
-		"/home/margar/Documentos/AED/tramite/database/migrations/2014_10_12_000000_create_users_table.php",
-		"/home/margar/Documentos/AED/tramite/database/migrations/2016_10_20_233802_create_empleados_table.php",
-		"/home/margar/Documentos/AED/tramite/database/migrations/2016_10_20_233818_create_cargos_table.php",
-		"/home/margar/Documentos/AED/tramite/database/migrations/2016_10_20_232823_create_personas_table.php",
-		"/home/margar/Documentos/AED/tramite/database/migrations/2014_10_12_100000_create_password_resets_table.php",
-		"/home/margar/Documentos/AED/tramite/database/migrations/2016_10_28_220049_create_estado_empleados_table.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/usuarios/editar.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/errors/404.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/errors/noEmpleado.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/errors/noExiste.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/empleados/usuario.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/cargos/mostrar.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/editarCargo.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/cargos/mostrarCargo.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/crearEmpleado.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/crearNewEmpleado.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/crearPersona.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/crearCargo.blade.php",
-		"/home/margar/Documentos/AED/tramite/app/Http/Controllers/personasController.php",
-		"/home/margar/Documentos/AED/colas/main.cpp",
-		"/home/margar/Documentos/AED/Presentaciones/FibonacciHeap/FibonacciHeap.tex",
-		"/home/margar/Documentos/AED/colas/Nodo.h",
-		"/home/margar/Documentos/AED/colas/cola.h",
-		"/home/margar/Documentos/AED/Presentaciones/Listas-Pilas-y-Colas/todo/todo.tex",
-		"/media/margar/Nuevo vol/Documentos/Cursos-2016-II/AED/ListasDobles/ListasDobles/Nodo.h",
-		"/home/margar/Documentos/AED/colas.h/Nodo",
-		"/media/margar/Nuevo vol/Documentos/Cursos-2016-II/AED/Listas/Listas/Nodo.h",
-		"/media/margar/Nuevo vol/Documentos/Cursos-2016-II/AED/Listas/Listas/Listas.cpp",
-		"/home/margar/project1/routes/web.php",
-		"/home/margar/project1/app/Persona.php",
-		"/home/margar/Documentos/AED/opencv/DisplayImage.cpp",
-		"/home/margar/project1/app/Http/Controllers/personasController.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/vendor/crearArea.blade.php",
-		"/home/margar/Documentos/AED/tramite/resources/views/crear.blade.php",
-		"/home/margar/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/home/margar/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/margar/project1/resources/views/template.blade.php",
-		"/home/margar/project1/resources/views/vista2.blade.php",
-		"/home/margar/project1/.env",
-		"/home/margar/project1/resources/views/vista1.blade.php",
-		"/home/margar/project1/database/migrations/2016_10_20_185900_create_personas_table.php",
-		"/home/margar/.config/composer/vendor/laravel/installer/src/NewCommand.php",
-		"/var/www/html/info.php",
-		"/var/www/html/algo.html",
-		"/etc/php/7.0/apache2/php.ini",
-		"/home/margar/SimpleView/CMakeLists.txt",
-		"/home/margar/Documentos/heap.cpp",
-		"/home/margar/Documentos/spanish-japanese-2016-10-03.txt",
-		"/home/margar/Documentos/spanish-french-2016-10-03.txt",
-		"/home/margar/Documentos/spanish-english-2016-10-03.txt"
+		"/home/luisbch/AED/voraz/Makefile",
+		"/home/luisbch/AED/voraz/monedas.cpp",
+		"/home/luisbch/AED/grafo/grafosvtk/Nodo.h",
+		"/home/luisbch/AED/grafo/grafosvtk/Grafo.h",
+		"/home/luisbch/AED/grafo/grafosvtk/grafovtk.sublime-project",
+		"/home/luisbch/AED/voraz/voraz.sublime-project",
+		"/home/luisbch/AED/grafo/grafosvtk/Edge.h",
+		"/home/luisbch/AED/grafo/grafosvtk/main.cpp",
+		"/home/luisbch/Web/tramite/public/rs/TablaTramites.js",
+		"/home/luisbch/Web/tramite/resources/views/tramites/show.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/tramites/ver.blade.php",
+		"/home/luisbch/Web/tramite/app/Http/Controllers/tramitesController.php",
+		"/home/luisbch/AED/grafo/grafosvtk/automata.sublime-workspace",
+		"/home/luisbch/Web/tramite/routes/web.php",
+		"/home/luisbch/Web/tramite/resources/views/estadosEmpleado/show.blade.php",
+		"/home/luisbch/Web/tramite/app/Http/Controllers/estadosEmpleadoController.php",
+		"/home/luisbch/Web/tramite/app/Http/Controllers/tiposTramiteController.php",
+		"/home/luisbch/Web/tramite/resources/views/estadosEmpleados/crear.blade.php",
+		"/home/luisbch/Web/tramite/public/rs/TablaAreas.js",
+		"/home/luisbch/Web/tramite/app/Area.php",
+		"/home/luisbch/Web/tramite/resources/views/areas/crear.blade.php",
+		"/home/luisbch/Web/tramite/app/Http/Controllers/areasController.php",
+		"/home/luisbch/Web/tramite/resources/views/areas/show.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/tiposTramite/show.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/tiposTramite/editar.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/tiposTramite/eliminar.blade.php",
+		"/home/luisbch/Web/tramite/public/rs/TablaTiposTramite.js",
+		"/home/luisbch/Web/tramite/resources/views/tiposTramite/todos.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/tiposTramite/crear.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/errors/404.blade.php",
+		"/home/luisbch/Web/tramite/database/migrations/2016_10_20_233802_create_empleados_table.php",
+		"/home/luisbch/Web/tramite/resources/views/test/file.blade.php",
+		"/home/luisbch/Web/tramite/app/Http/Controllers/testController.php",
+		"/home/luisbch/Web/tramite/app/Http/Controllers/empleadosController.php",
+		"/home/luisbch/Web/tramite/app/Tramite.php",
+		"/home/luisbch/Web/tramite/resources/views/tramites/todos.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/areas/todos.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/areas/editar.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/tramites/crear.blade.php",
+		"/home/luisbch/AED/grafo/Grafo.h",
+		"/home/luisbch/AED/grafo/Edge.h",
+		"/home/luisbch/AED/grafo/main.cpp",
+		"/home/luisbch/AED/grafo/Nodo.h",
+		"/home/luisbch/UVA/main.c",
+		"/home/luisbch/UVA/main.cpp",
+		"/home/luisbch/Web/tramite/database/migrations/2016_10_27_035104_create_areas_table.php",
+		"/home/luisbch/Web/tramite/resources/views/usuarios/show.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/usuarios/todos.blade.php",
+		"/home/luisbch/Web/tramite/app/Http/Controllers/usuariosController.php",
+		"/home/luisbch/Web/tramite/resources/views/home.blade.php",
+		"/home/luisbch/Web/tramite/app/User.php",
+		"/home/luisbch/Web/tramite/app/Http/Controllers/cargosController.php",
+		"/home/luisbch/Web/tramite/resources/views/usuarios/editar.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/testdelete.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/cargos/show.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/usuarios/crear.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/cargos/crear.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/cargos/todos.blade.php",
+		"/home/luisbch/Web/tramite/public/rs/TablaCargos.js",
+		"/home/luisbch/Web/tramite/public/rs/TablaPersonas.js",
+		"/home/luisbch/Web/tramite/app/Empleado.php",
+		"/home/luisbch/Web/tramite/app/Http/Controllers/personasController.php",
+		"/home/luisbch/Web/tramite/app/Persona.php",
+		"/home/luisbch/Web/tramite/resources/views/personas/crearPersona.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/Empleado/todos.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/template.blade.php",
+		"/home/luisbch/Web/tramite/resources/views/Persona/todos.blade.php",
+		"/var/www/html/react/src/persona.js",
+		"/home/luisbch/Web/tramite/routes/api.php",
+		"/home/luisbch/Web/tramite/resources/views/Personas/crear.blade.php",
+		"/home/luisbch/Web/tramite/resources/home.blade.php",
+		"/home/luisbch/Web/tramite/public/css/paleta.css",
+		"/home/luisbch/Web/tramite/resources/views/Personas/crear.php",
+		"/home/luisbch/Web/www/tramite/resources/views/template.blade.php",
+		"/home/luisbch/Web/www/tramite/resources/views/vista1.blade.php",
+		"/home/luisbch/Web/www/tramite/routes/web.php",
+		"/home/luisbch/Web/www/tramite/app/Http/Controllers/areasController.php",
+		"/home/luisbch/Web/www/tramite/resources/template.blade.php",
+		"/home/luisbch/Web/www/tramite/app/Http/Controllers/usuarioController.php",
+		"/home/luisbch/Web/www/tramite/.env",
+		"/home/luisbch/Web/www/tramite/database/migrations/2016_10_24_215351_create_areas_table.php",
+		"/home/luisbch/Web/www/tramite/app/User.php",
+		"/home/luisbch/Web/www/tramite/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/home/luisbch/Web/www/tramite/resources/views/grupo1/vista.blade.php",
+		"/home/luisbch/TC/automata/.gitignore",
+		"/home/luisbch/TC/automata/automata.sublime-project",
+		"/home/luisbch/TC/automata/main.cpp",
+		"/home/luisbch/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/luisbch/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/luisbch/.config/sublime-text-3/Packages/User/c.sublime-build",
+		"/home/luisbch/TC/automata/.sublime-project",
+		"/home/luisbch/TC/automata/Makefile",
+		"/home/luisbch/TC/build.sublime-build",
+		"/home/luisbch/Web/tramite/.env",
+		"/home/luisbch/Web/tramite/.gitignore",
+		"/home/luisbch/AED/pila/Nodo.h",
+		"/home/luisbch/AED/pila/Pila.h",
+		"/home/luisbch/AED/pila/main.cpp",
+		"/home/luisbch/AED/opencv-tutorial/main.cpp",
+		"/home/luisbch/AED/opencv-tutorial/CMakeLists.txt",
+		"/var/www/html/react/api/index.php",
+		"/var/www/html/react/index.html",
+		"/var/www/html/react/index.php",
+		"/home/luisbch/react/py.py",
+		"/home/luisbch/tramite/routes/web.php",
+		"/home/luisbch/react/src/02-jsx.js",
+		"/home/luisbch/react/src/02-js.js",
+		"/home/luisbch/react/02-js-vs-jsx.html",
+		"/home/luisbch/react-15.3.2/examples/basic/index.html",
+		"/home/luisbch/react/index.html",
+		"/home/luisbch/tramite/README.md",
+		"/home/luisbch/tramite/config/app.php",
+		"/home/luisbch/AED/test/hijo2.h",
+		"/home/luisbch/AED/test/hijo1.h",
+		"/home/luisbch/AED/test/padre.h",
+		"/home/luisbch/AED/aedtraductor/windows/include/mainwindow.h",
+		"/home/luisbch/AED/aedtraductor/otros/monitor.h",
+		"/home/luisbch/AED/test/main.cpp",
+		"/home/luisbch/AED/aedtraductor/windows/src/vtkwindow.cpp",
+		"/home/luisbch/AED/aedtraductor/otros/par.h",
+		"/home/luisbch/AED/aedtraductor/otros/nodovtk.h",
+		"/home/luisbch/AED/aedtraductor/otros/palabra.cpp",
+		"/home/luisbch/AED/aedtraductor/otros/palabra.h",
+		"/home/luisbch/AED/aedtraductor/windows/include/vtkwindow.h",
+		"/home/luisbch/AED/aedtraductor/otros/par.cpp",
+		"/home/luisbch/untitled/main.cpp",
+		"/home/luisbch/aedtraductor/CMakeLists.txt",
+		"/home/luisbch/aedtraductor/main.cpp"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -359,9 +360,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"personas",
-			"persona",
-			"disabled"
+			"{{",
+			"TipoTramite",
+			"Area",
+			"ctrl+shift+b"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -379,24 +381,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Grafo.h",
+					"file": "main.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1336,
+						"buffer_size": 238,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1299,
-								1299
+								189,
+								189
 							]
 						],
 						"settings":
@@ -405,18 +407,79 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1134.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "grafovtk.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -431,11 +494,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.853982300885,
 			1.0
 		],
 		"rows":
@@ -445,15 +515,19 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 237.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
 	"project": "grafovtk.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -491,7 +565,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 223.0,
+	"side_bar_width": 278.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

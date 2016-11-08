@@ -1,25 +1,14 @@
 {
-	"build_systems":
-	[
-		{
-			"name": "Compilar",
-			"shell_cmd": "make && ./exe",
-			"variants":
-			[
-				{
-					"name": "Run",
-					"shell_cmd": "./exe"
-				}
-			]
-		}
-	],
 	"folders":
 	[
 		{
-			"path": "/home/luisbch/AED/grafo/grafosvtk"
-		},
-		{
 			"path": "."
 		}
-	]
+	],
+
+	"build_system": 
+        {
+            "name": "Make"
+        }
+    
 }

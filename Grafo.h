@@ -45,9 +45,6 @@ void Grafo<T,V>::addEdge(T a,T b,V peso){
 }
 
 
-
-
-
 template <class T,class V>
 void Grafo<T,V>::prints(){
 	typename std::list<Nodo<T,V> >::iterator it;
@@ -63,7 +60,7 @@ void Grafo<T,V>::prints(){
 				cout << ((*it_ar)->m_pdestino->m_dato)<< ",";
 			}
 		}
-			cout << " )";
+			cout << " )"<<endl;
 
 	}
 }

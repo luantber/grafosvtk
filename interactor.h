@@ -16,16 +16,7 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
  
    	virtual void OnLeftButtonDown() {
    		cout<<"Hola mundito :D !!!te queremos ! <3 "<<endl;
-      
-      //this->Interactor->GetPicker()->Pick(this->Interactor->GetEventPosition()[0], 
-      //                   this->Interactor->GetEventPosition()[1], 
-      //                   0,  // always zero.
-      //                   this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer());
-
-      //double picked[3];
-      //this->Interactor->GetPicker()->GetPickPosition(picked);
-      //cout << picked[0] << " " << picked[1] << " " << picked[2] << endl;
-
+   
       vtkSmartPointer<vtkCoordinate> coordinate = 
         vtkSmartPointer<vtkCoordinate>::New();
       coordinate->SetCoordinateSystemToDisplay();
@@ -34,85 +25,55 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
       // This doesn't produce the right value if the sphere is zoomed in???
       double* world = coordinate->GetComputedWorldValue(this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer());
       std::cout << "World coordinate: " << world[0] << ", " << world[1] << ", " << world[2] << std::endl;
+
  
+      //tuple<double,double,double> nuevo = make_tuple(world[0],world[1],world[2]);
+      crearEsfera(world[0],world[1],world[2]);
+
+    
+    vtkInteractorStyleTrackballCamera::OnLeftButtonDown();
+
+    }
 
 
 
-      tuple<double,double,double> nuevo = make_tuple(world[0],world[1],world[2]);
-
-      grafo.addNodo(nuevo);
-
-    vtkSmartPointer<vtkSphereSource> sphereSource = 
-      vtkSmartPointer<vtkSphereSource>::New();
-    sphereSource->SetCenter(get<0>(nuevo), get<1>(nuevo), get<2>(nuevo));
-      sphereSource->SetRadius(5.0);
-    sphereSource->Update();
-
-    vtkSmartPointer<vtkPolyDataMapper> mapper = 
-    vtkSmartPointer<vtkPolyDataMapper>::New();
-
-    mapper->SetInputConnection(sphereSource->GetOutputPort());
-
-
-    vtkSmartPointer<vtkActor> actor = 
-    vtkSmartPointer<vtkActor>::New();
-
-    actor->SetMapper(mapper);
-
-    this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->AddActor(actor);
-    this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->Render();
-    //this->Interactor->GetRenderWindow()->Render();
-
-   
-
-
-   	  vtkInteractorStyleTrackballCamera::OnLeftButtonDown();
-   	}
-
-
-    /*
 
   void crearEsfera(double x,double y,double z){
 
     tuple<double,double,double> nuevo = make_tuple(x,y,z);
-
     grafo.addNodo(nuevo);
 
     vtkSmartPointer<vtkSphereSource> sphereSource = 
-      vtkSmartPointer<vtkSphereSource>::New();
+    vtkSmartPointer<vtkSphereSource>::New();
+
     sphereSource->SetCenter(get<0>(nuevo), get<1>(nuevo), get<2>(nuevo));
-      sphereSource->SetRadius(5.0);
+    sphereSource->SetRadius(5.0);
     sphereSource->Update();
 
-    this->add(sphereSource->GetOutputPort());
+    add(sphereSource->GetOutputPort());
 
   }
 
 
-    void add(vtkSmartPointer<vtkAlgorithmOutput> data){
+  void add(vtkSmartPointer<vtkAlgorithmOutput> data){
       
     vtkSmartPointer<vtkPolyDataMapper> mapper = 
     vtkSmartPointer<vtkPolyDataMapper>::New();
 
     mapper->SetInputConnection(data);
 
-    vtkSmartPointer<vtkPolyDataMapper> mapper2 = 
-    vtkSmartPointer<vtkPolyDataMapper>::New();
-
     vtkSmartPointer<vtkActor> actor = 
     vtkSmartPointer<vtkActor>::New();
 
     actor->SetMapper(mapper);
+    //renderWindow->Render();
 
-    renderer->SetBackground(1,1,1); // Background color white
-    renderer->AddActor(actor); 
+    // renderer->AddActor(actor); 
+    this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->AddActor(actor);
+    this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->Render();
 
-    renderWindow->Render();
-    //renderWindowInteractor->Start();
-    renderer->ResetCamera();
     }
 
 
-    */
 };
 

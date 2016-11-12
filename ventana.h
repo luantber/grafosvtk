@@ -45,6 +45,42 @@ public:
     vtkSmartPointer<MouseInteractorStyleDoubleClick>::New();
  	
  	
+  void crearEsfera(double x,double y,double z){
+
+    tuple<double,double,double> nuevo = make_tuple(x,y,z);
+
+    vtkSmartPointer<vtkSphereSource> sphereSource = 
+    vtkSmartPointer<vtkSphereSource>::New();
+
+    sphereSource->SetCenter(get<0>(nuevo), get<1>(nuevo), get<2>(nuevo));
+    sphereSource->SetRadius(5.0);
+    sphereSource->Update();
+
+    add(sphereSource->GetOutputPort());
+
+  }
+
+
+  void add(vtkSmartPointer<vtkAlgorithmOutput> data){
+      
+    vtkSmartPointer<vtkPolyDataMapper> mapper = 
+    vtkSmartPointer<vtkPolyDataMapper>::New();
+
+    mapper->SetInputConnection(data);
+
+    vtkSmartPointer<vtkActor> actor = 
+    vtkSmartPointer<vtkActor>::New();
+
+    actor->SetMapper(mapper);
+
+    renderer->AddActor(actor); 
+    renderWindow->Render();
+    
+    //this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->AddActor(actor);
+    //this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->Render();
+
+    }
+
 
 	
 };

@@ -8,6 +8,7 @@
 #include <vtkSphereSource.h>
 #include <vtkWorldPointPicker.h>
 #include <tuple>
+#include <vtkWorldPointPicker.h>
 
 
 #include "interactor.h"
@@ -23,6 +24,7 @@ public:
 		renderWindowInteractor->SetInteractorStyle( style );
 		renderWindowInteractor->SetRenderWindow ( renderWindow );
 		renderWindowInteractor->Initialize();
+		  renderWindowInteractor->SetPicker(worldPointPicker);
 
 	}
 
@@ -30,6 +32,9 @@ public:
 
 	//vtkSmartPointer<vtkWorldPointPicker> worldPointPicker = 
     //vtkSmartPointer<vtkWorldPointPicker>::New();
+
+	vtkSmartPointer<vtkWorldPointPicker> worldPointPicker = 
+    vtkSmartPointer<vtkWorldPointPicker>::New();
 
     vtkSmartPointer<vtkRenderer> renderer = 
     vtkSmartPointer<vtkRenderer>::New();
@@ -75,7 +80,7 @@ public:
 
     renderer->AddActor(actor); 
     renderWindow->Render();
-    
+
     //this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->AddActor(actor);
     //this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->Render();
 

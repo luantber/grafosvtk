@@ -17,7 +17,7 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
    	virtual void OnLeftButtonDown() {
    		cout<<"Hola mundito :D !!!te queremos ! <3 "<<endl;
    
-      vtkSmartPointer<vtkCoordinate> coordinate = 
+ /*     vtkSmartPointer<vtkCoordinate> coordinate = 
         vtkSmartPointer<vtkCoordinate>::New();
       coordinate->SetCoordinateSystemToDisplay();
       coordinate->SetValue(this->Interactor->GetEventPosition()[0],this->Interactor->GetEventPosition()[1],0);
@@ -28,7 +28,17 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
 
  
       //tuple<double,double,double> nuevo = make_tuple(world[0],world[1],world[2]);
-      crearEsfera(world[0],world[1],world[2]);
+
+*/
+  this->Interactor->GetPicker()->Pick(this->Interactor->GetEventPosition()[0], 
+                         this->Interactor->GetEventPosition()[1], 
+                         0,  // always zero.
+                         this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer());
+      double picked[3];
+      this->Interactor->GetPicker()->GetPickPosition(picked);
+      std::cout << "Picked value: " << picked[0] << " " << picked[1] << " " << picked[2] << std::endl;
+
+      crearEsfera(picked[0],picked[1],picked[2]);
 
     
     vtkInteractorStyleTrackballCamera::OnLeftButtonDown();

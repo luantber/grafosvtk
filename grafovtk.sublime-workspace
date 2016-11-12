@@ -92,22 +92,37 @@
 	"buffers":
 	[
 		{
-			"contents": "#include <iostream>\n#include \"Grafo.h\"\n\nusing namespace std;\nint main(){\n\n\tGrafo<int,int> g;\n\n\tfor(int i=0;i<10;++i){\n\t\tg.addNodo(i);\n\t}\n\t\n\t//cout << g.find(7)->m_dato ;\n\tg.addEdge(3,7,10);\n\tg.addEdge(3,4,10);\n\tg.prints();\n\tcout\t<< \"hola\"<<endl;\n\n\n\n\treturn 0;\n}",
-			"file": "main.cpp",
-			"file_size": 261,
-			"file_write_time": 131231135660814578,
+			"file": "grafosvtk.cpp",
 			"settings":
 			{
-				"buffer_size": 261,
+				"buffer_size": 394,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "grafovtk.sublime-project",
+			"file": "ventana.h",
 			"settings":
 			{
-				"buffer_size": 48,
+				"buffer_size": 2055,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "interactor.h",
+			"settings":
+			{
+				"buffer_size": 452,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*  \n#include <vtkPointPicker.h>\n\n\n\n\n  void crearEsfera(double x,double y,double z){\n\n\n    tuple<double,double,double> nuevo = make_tuple(x,y,z);\n\n    grafo.addNodo(nuevo);\n\n    vtkSmartPointer<vtkSphereSource> sphereSource = \n      vtkSmartPointer<vtkSphereSource>::New();\n    sphereSource->SetCenter(get<0>(nuevo), get<1>(nuevo), get<2>(nuevo));\n      sphereSource->SetRadius(5.0);\n    sphereSource->Update();\n\n    this->add(sphereSource->GetOutputPort());\n\n  }\n\n\n    void add(vtkSmartPointer<vtkAlgorithmOutput> data){\n      \n    vtkSmartPointer<vtkPolyDataMapper> mapper = \n    vtkSmartPointer<vtkPolyDataMapper>::New();\n\n    mapper->SetInputConnection(data);\n\n    vtkSmartPointer<vtkPolyDataMapper> mapper2 = \n    vtkSmartPointer<vtkPolyDataMapper>::New();\n\n    vtkSmartPointer<vtkActor> actor = \n    vtkSmartPointer<vtkActor>::New();\n\n    actor->SetMapper(mapper);\n\n    renderer->SetBackground(1,1,1); // Background color white\n    renderer->AddActor(actor); \n\n    renderWindow->Render();\n    //renderWindowInteractor->Start();\n    renderer->ResetCamera();\n    }\n*/",
+			"settings":
+			{
+				"buffer_size": 1071,
 				"line_ending": "Unix"
 			}
 		}
@@ -205,19 +220,19 @@
 	},
 	"expanded_folders":
 	[
-		"/home/luisbch/AED/grafo/grafosvtk"
 	],
 	"file_history":
 	[
+		"/home/luisbch/AED/grafo/grafosvtk/build/CMakeFiles/grafosvtk.dir/link.txt",
+		"/home/luisbch/AED/grafo/grafosvtk/Grafo.h",
 		"/home/luisbch/AED/grafo/grafosvtk/Makefile",
+		"/home/luisbch/AED/grafo/grafosvtk/main.cpp",
 		"/home/luisbch/AED/grafo/grafosvtk/grafovtk.sublime-project",
 		"/home/luisbch/AED/voraz/Makefile",
 		"/home/luisbch/AED/voraz/monedas.cpp",
 		"/home/luisbch/AED/grafo/grafosvtk/Nodo.h",
-		"/home/luisbch/AED/grafo/grafosvtk/Grafo.h",
 		"/home/luisbch/AED/voraz/voraz.sublime-project",
 		"/home/luisbch/AED/grafo/grafosvtk/Edge.h",
-		"/home/luisbch/AED/grafo/grafosvtk/main.cpp",
 		"/home/luisbch/Web/tramite/public/rs/TablaTramites.js",
 		"/home/luisbch/Web/tramite/resources/views/tramites/show.blade.php",
 		"/home/luisbch/Web/tramite/resources/views/tramites/ver.blade.php",
@@ -335,12 +350,11 @@
 		"/home/luisbch/AED/aedtraductor/otros/palabra.h",
 		"/home/luisbch/AED/aedtraductor/windows/include/vtkwindow.h",
 		"/home/luisbch/AED/aedtraductor/otros/par.cpp",
-		"/home/luisbch/untitled/main.cpp",
-		"/home/luisbch/aedtraductor/CMakeLists.txt"
+		"/home/luisbch/untitled/main.cpp"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -354,6 +368,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"g++",
+			"g",
 			"{{",
 			"TipoTramite",
 			"Area",
@@ -375,24 +391,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "main.cpp",
+					"file": "grafosvtk.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 261,
+						"buffer_size": 394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								247,
-								247
+								156,
+								156
 							]
 						],
 						"settings":
@@ -404,35 +420,94 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "grafovtk.sublime-project",
+					"file": "ventana.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 48,
+						"buffer_size": 2055,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								35
+								401,
+								401
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "interactor.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								452
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								5
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -471,7 +546,7 @@
 		"cols":
 		[
 			0.0,
-			0.853982300885,
+			0.857536764706,
 			1.0
 		],
 		"rows":
@@ -483,7 +558,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 237.0
+		"height": 170.0
 	},
 	"output.find_results":
 	{

@@ -6,6 +6,7 @@
 #include <vtkRenderer.h>
 #include <vtkAlgorithmOutput.h>
 #include <vtkSphereSource.h>
+#include <vtkWorldPointPicker.h>
 #include <tuple>
 
 #include "Grafo.h"
@@ -27,6 +28,9 @@ public:
 	}
 
 	Grafo<tuple<double,double,double>,int> grafo;
+
+	vtkSmartPointer<vtkWorldPointPicker> worldPointPicker = 
+    vtkSmartPointer<vtkWorldPointPicker>::New();
 
     vtkSmartPointer<vtkRenderer> renderer = 
     vtkSmartPointer<vtkRenderer>::New();

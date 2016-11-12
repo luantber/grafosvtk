@@ -2,10 +2,14 @@
 #include <vtkRendererCollection.h>
 #include <vtkPointPicker.h>
 #include <vtkCoordinate.h>
-
+#include "Grafo.h"
 class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
 {
+
+
   public:
+    
+    Grafo<tuple<double,double,double>,int> grafo;
      
     static MouseInteractorStyleDoubleClick* New();
     vtkTypeMacro(MouseInteractorStyleDoubleClick, vtkInteractorStyleTrackballCamera);
@@ -36,7 +40,7 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
 
       tuple<double,double,double> nuevo = make_tuple(world[0],world[1],world[2]);
 
-      //grafo.addNodo(nuevo);
+      grafo.addNodo(nuevo);
 
     vtkSmartPointer<vtkSphereSource> sphereSource = 
       vtkSmartPointer<vtkSphereSource>::New();
@@ -62,7 +66,53 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
    
 
 
-   		vtkInteractorStyleTrackballCamera::OnLeftButtonDown();
+   	  vtkInteractorStyleTrackballCamera::OnLeftButtonDown();
    	}
+
+
+    /*
+
+  void crearEsfera(double x,double y,double z){
+
+    tuple<double,double,double> nuevo = make_tuple(x,y,z);
+
+    grafo.addNodo(nuevo);
+
+    vtkSmartPointer<vtkSphereSource> sphereSource = 
+      vtkSmartPointer<vtkSphereSource>::New();
+    sphereSource->SetCenter(get<0>(nuevo), get<1>(nuevo), get<2>(nuevo));
+      sphereSource->SetRadius(5.0);
+    sphereSource->Update();
+
+    this->add(sphereSource->GetOutputPort());
+
+  }
+
+
+    void add(vtkSmartPointer<vtkAlgorithmOutput> data){
+      
+    vtkSmartPointer<vtkPolyDataMapper> mapper = 
+    vtkSmartPointer<vtkPolyDataMapper>::New();
+
+    mapper->SetInputConnection(data);
+
+    vtkSmartPointer<vtkPolyDataMapper> mapper2 = 
+    vtkSmartPointer<vtkPolyDataMapper>::New();
+
+    vtkSmartPointer<vtkActor> actor = 
+    vtkSmartPointer<vtkActor>::New();
+
+    actor->SetMapper(mapper);
+
+    renderer->SetBackground(1,1,1); // Background color white
+    renderer->AddActor(actor); 
+
+    renderWindow->Render();
+    //renderWindowInteractor->Start();
+    renderer->ResetCamera();
+    }
+
+
+    */
 };
 

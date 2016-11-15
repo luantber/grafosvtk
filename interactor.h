@@ -1,7 +1,4 @@
-#include <vtkInteractorStyleTrackballCamera.h>
-#include <vtkRendererCollection.h>
-#include <vtkPointPicker.h>
-#include <vtkCoordinate.h>
+
 #include "Grafo.h"
 class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
 {
@@ -15,22 +12,10 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
     vtkTypeMacro(MouseInteractorStyleDoubleClick, vtkInteractorStyleTrackballCamera);
  
    	virtual void OnLeftButtonDown() {
-   		cout<<"Hola mundito :D !!!te queremos ! <3 "<<endl;
+   	cout<<"Hola mundito :D !!!te queremos ! <3 "<<endl;
    
- /*     vtkSmartPointer<vtkCoordinate> coordinate = 
-        vtkSmartPointer<vtkCoordinate>::New();
-      coordinate->SetCoordinateSystemToDisplay();
-      coordinate->SetValue(this->Interactor->GetEventPosition()[0],this->Interactor->GetEventPosition()[1],0);
  
-      // This doesn't produce the right value if the sphere is zoomed in???
-      double* world = coordinate->GetComputedWorldValue(this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer());
-      std::cout << "World coordinate: " << world[0] << ", " << world[1] << ", " << world[2] << std::endl;
-
- 
-      //tuple<double,double,double> nuevo = make_tuple(world[0],world[1],world[2]);
-
-*/
-  this->Interactor->GetPicker()->Pick(this->Interactor->GetEventPosition()[0], 
+    this->Interactor->GetPicker()->Pick(this->Interactor->GetEventPosition()[0], 
                          this->Interactor->GetEventPosition()[1], 
                          0,  // always zero.
                          this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer());
@@ -53,8 +38,7 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
     tuple<double,double,double> nuevo = make_tuple(x,y,z);
     grafo.addNodo(nuevo);
 
-    vtkSmartPointer<vtkSphereSource> sphereSource = 
-    vtkSmartPointer<vtkSphereSource>::New();
+    SphereSource sphereSource = SphereSource::New();
 
     sphereSource->SetCenter(get<0>(nuevo), get<1>(nuevo), get<2>(nuevo));
     sphereSource->SetRadius(5.0);
@@ -65,20 +49,16 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
   }
 
 
-  void add(vtkSmartPointer<vtkAlgorithmOutput> data){
+  void add(AlgorithmOutput data){
       
-    vtkSmartPointer<vtkPolyDataMapper> mapper = 
-    vtkSmartPointer<vtkPolyDataMapper>::New();
+    PolyDataMapper  mapper = PolyDataMapper ::New();
 
     mapper->SetInputConnection(data);
 
-    vtkSmartPointer<vtkActor> actor = 
-    vtkSmartPointer<vtkActor>::New();
+    Actor actor = Actor ::New();
 
     actor->SetMapper(mapper);
-    //renderWindow->Render();
-
-    // renderer->AddActor(actor); 
+    
     this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->AddActor(actor);
     this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->Render();
 

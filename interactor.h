@@ -42,6 +42,8 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
 
     sphereSource->SetCenter(get<0>(nuevo), get<1>(nuevo), get<2>(nuevo));
     sphereSource->SetRadius(5.0);
+    sphereSource->SetPhiResolution(11);
+    sphereSource->SetThetaResolution(21);
     sphereSource->Update();
 
     add(sphereSource->GetOutputPort());
@@ -55,15 +57,27 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
 
     mapper->SetInputConnection(data);
 
-    Actor actor = Actor ::New();
+    Actor actorEsfera = Actor ::New();
 
-    actor->SetMapper(mapper);
+    double r,g,b;
+    r = vtkMath::Random(0.5,2.5);
+    g = vtkMath::Random(0.5,2.5);
+    b = vtkMath::Random(0.5,2.5);
+
+    actorEsfera->GetProperty()->SetDiffuseColor(r,g,b);
+    actorEsfera->GetProperty()->SetDiffuse(0.4);
+    actorEsfera->GetProperty()->SetSpecular(.5);
+    actorEsfera->GetProperty()->SetSpecularColor(0.5,0.5,0.5);
+    actorEsfera->GetProperty()->SetSpecularPower(20.0);
+
+    actorEsfera->SetMapper(mapper);
     
-    this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->AddActor(actor);
+    this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->AddActor(actorEsfera);
     this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer()->Render();
 
     }
 
 
 };
+
 

@@ -7,16 +7,15 @@
 #include <vtkAlgorithmOutput.h>
 #include <vtkSphereSource.h>
 #include <vtkWorldPointPicker.h>
-
 #include <vtkVectorText.h>
 #include <vtkFollower.h>
-
-
-
 #include <vtkInteractorStyleTrackballCamera.h>
 #include <vtkRendererCollection.h>
 #include <vtkPointPicker.h>
 #include <vtkCoordinate.h>
+#include <vtkProperty.h>
+#include <vtkMath.h>
+
 //typedef vtkSmartPointer VSP;
 
 typedef vtkSmartPointer<vtkPolyDataMapper> PolyDataMapper;

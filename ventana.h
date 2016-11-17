@@ -25,6 +25,8 @@ public:
         mapper->SetInputConnection( textSource->GetOutputPort() );
         renderer->AddActor(follower);
 
+        style->SetDefaultRenderer(renderer);
+
 
         // Fin Constructor
 

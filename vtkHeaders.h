@@ -13,8 +13,10 @@
 #include <vtkRendererCollection.h>
 #include <vtkPointPicker.h>
 #include <vtkCoordinate.h>
-#include <vtkProperty.h>
 #include <vtkMath.h>
+
+#include <vtkProperty.h>
+#include <vtkPropPicker.h>
 
 //typedef vtkSmartPointer VSP;
 
@@ -35,3 +37,5 @@ typedef vtkSmartPointer<vtkInteractorStyleTrackballCamera> InteractorStyleTrackb
 typedef vtkSmartPointer<vtkRendererCollection> RendererCollection;
 typedef vtkSmartPointer<vtkPointPicker> PointPicker;
 typedef vtkSmartPointer<vtkCoordinate> Coordinate;
+
+typedef vtkSmartPointer<vtkPropPicker> PropPicker;

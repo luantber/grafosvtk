@@ -27,6 +27,7 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
     }
 
     virtual void OnRightButtonDown(){
+      clicks = 0;
       int * clickPos = this->GetInteractor()->GetEventPosition();
       PropPicker picker = PropPicker::New();
 
@@ -52,27 +53,30 @@ class MouseInteractorStyleDoubleClick : public vtkInteractorStyleTrackballCamera
         if (clickTubo == 1)
         {
 
-          this->Interactor->GetPicker()->Pick(clickPos[0],clickPos[1],clickPos[2],this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer());
-          double picked1[3];
-          this->Interactor->GetPicker()->GetPickPosition(picked1);
+          picker->Pick(clickPos[0],clickPos[1],0,this->GetDefaultRenderer());
+          auto seleccionado = picker->GetActor();
+          double * centro = seleccionado->GetCenter();
 
           cout<<endl;
+          cout << centro[0] << " "<< centro[1] << " "<<centro[2] ;
           cout<< x <<" "<<y<<" "<<z<<" Posiciones inciales" <<endl;
-          cout<<picked1[0]<<" "<<picked1[1]<<" "<<endl;
+          //cout<<picked1[0]<<" "<<picked1[1]<<" "<<endl;
           cout<<endl;
-          CrearTubo(x,y,z,picked1[0],picked1[1],picked1[2]);
+          CrearTubo(x,y,z,centro[0],centro[1],centro[2]);
           clickTubo = 0;
 
         }
 
         else if (clickTubo == 0)
         {
-          this->Interactor->GetPicker()->Pick(clickPos[0],clickPos[1],clickPos[2],this->Interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer());
-          double picked2[3];
-          this->Interactor->GetPicker()->GetPickPosition(picked2);
-          x = picked2[0];
-          y = picked2[1];
-          z = picked2[2];
+          picker->Pick(clickPos[0],clickPos[1],0,this->GetDefaultRenderer());
+          auto seleccionado = picker->GetActor();
+          double * centro = seleccionado->GetCenter();
+          
+          x = centro[0];
+          y = centro[1];
+          z = centro[2];
+
           clickTubo++;
           cout<<endl;
           inicio = clickPos;

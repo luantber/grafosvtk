@@ -15,6 +15,11 @@
 #include <vtkCoordinate.h>
 #include <vtkMath.h>
 
+#include <vtkLine.h>
+#include <vtkCellArray.h>
+#include <vtkTubeFilter.h>
+#include <vtkLineSource.h>
+
 #include <vtkProperty.h>
 #include <vtkPropPicker.h>
 
@@ -39,3 +44,7 @@ typedef vtkSmartPointer<vtkPointPicker> PointPicker;
 typedef vtkSmartPointer<vtkCoordinate> Coordinate;
 
 typedef vtkSmartPointer<vtkPropPicker> PropPicker;
+
+typedef vtkSmartPointer<vtkLineSource> LineSource;
+typedef vtkSmartPointer<vtkTubeFilter> TubeFilter;
+
